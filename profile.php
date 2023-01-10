@@ -44,7 +44,11 @@ if (empty($_SESSION["user_id"])) {
             </h3>
         </div>
         <div class="d-flex justify-content-center my-1 mt-3">
-            <h2 class="text-primary">My Account</h2>
+            <h2 class="text-primary">My Account (
+                <?php if (isset($_SESSION["username"])) {
+                echo $_SESSION["username"];
+            } ?> )
+            </h2>
         </div>
         <!-- Start Premium Features -->
         <div class="container-xxl py-5">
@@ -53,8 +57,11 @@ if (empty($_SESSION["user_id"])) {
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                                <h5 class="mb-3 text-uppercase"><a href="documents/form5/HEAT OG.pdf">Edit Profile</a>
+                                <i class="fa fa-3x fa-eye text-primary mb-4"></i>
+                                <h5 class="mb-3 text-uppercase"><a href="view-profile.php?view_profile=<?php if (isset($_SESSION["user_id"])) {
+                                                                                                        echo $_SESSION["user_id"];
+                                                                                                    } ?>">View
+                                        Profile</a>
                                 </h5>
                             </div>
                         </div>
@@ -62,8 +69,17 @@ if (empty($_SESSION["user_id"])) {
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                                <h5 class="mb-3 text-uppercase"><a href="documents/form5/ELECTROSTATICS.pdf">Change
+                                <i class="fa fa-3x fa-user-edit text-primary mb-4"></i>
+                                <h5 class="mb-3 text-uppercase"><a href="edit-profile.php">Edit Profile</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-user-lock text-primary mb-4"></i>
+                                <h5 class="mb-3 text-uppercase"><a href="change-password.php">Change
                                         Password</a></h5>
                             </div>
                         </div>

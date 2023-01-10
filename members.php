@@ -58,7 +58,7 @@ if (empty($_SESSION["user_id"])) {
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                                <h5 class="mb-3"><a href="#">News</a></h5>
+                                <h5 class="mb-3"><a href="#">Handout & PDF(s)</a></h5>
                             </div>
                         </div>
                     </div>
