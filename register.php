@@ -53,25 +53,31 @@
                 <?php } ?>
                 <form action="register.php" method="POST" class="form w-100">
                     <div class="form-group my-3">
-                        <label for="" class="form-label">Username</label>
+                        <label for="" class="form-label">Username <span class="text-dark">*</span></label>
                         <input type="text" id="username" name="username" class="form-control"
                             value="<?php echo $username; ?>" placeholder="Enter username">
                         <span class="text-danger"><?php echo $usernameError; ?></span>
                     </div>
                     <div class="form-group my-3">
-                        <label for="" class="form-label">Email Or Phone</label>
-                        <input type="text" id="email" name="email" class="form-control" value="<?php echo $email;  ?>"
+                        <label for="" class="form-label">Email Address <span class="text-dark">*</span></label>
+                        <input type="email" id="email" name="email" class="form-control" value="<?php echo $email;  ?>"
                             placeholder="Enter valid email address or phone">
                         <span class="text-danger"><?php echo $emailError; ?></span>
                     </div>
                     <div class="form-group my-3">
-                        <label for="" class="form-label">Password</label>
+                        <label for="" class="form-label">Mobile Number</label>
+                        <input inputmode="numeric" id="mobile" name="mobile" class="form-control"
+                            placeholder="Mobile number ( optional) ">
+                        <span class="text-danger"><?php echo $mobileError; ?></span>
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="" class="form-label">Password <span class="text-dark">*</span></label>
                         <input type="password" id="password" name="password" class="form-control"
                             placeholder="Enter Password">
                         <span class="text-danger"><?php echo $passwordError; ?></span>
                     </div>
                     <div class="form-group my-3">
-                        <label for="" class="form-label">Confirm Password</label>
+                        <label for="" class="form-label">Confirm Password <span class="text-dark">*</span></label>
                         <input type="password" id="confirmPassword" name="confirmPassword" class="form-control"
                             placeholder="Confirm Password">
                         <span class="text-danger"><?php echo $confirmPasswordError ?></span>

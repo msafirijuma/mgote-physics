@@ -3,8 +3,8 @@ session_start();
 require("connect.php");
 
 // Emptying inputs fields;
-$email = $password = $username  =  $confirmPassword = $loginEmail = $loginPassword = "";
-$emailError = $passwordError = $usernameError = $confirmPasswordError = "";
+$email = $password = $mobile = $username  =  $confirmPassword = $loginEmail = $loginPassword = "";
+$emailError = $passwordError = $mobileError = $usernameError = $confirmPasswordError = "";
 $loginEmailError = $loginPasswordError = "";
 
 $_SESSION["message"] = "";
@@ -24,6 +24,7 @@ if (isset($_POST["register"])) {
 
     $email = testData($_POST["email"]);
     $password = testData($_POST["password"]);
+    $mobile = testData($_POST["mobile"]);
     $username = testData($_POST["username"]);
     $confirmPassword = testData($_POST["confirmPassword"]);
 
@@ -37,6 +38,14 @@ if (isset($_POST["register"])) {
         } else {
             if (!preg_match("/^[a-zA-Z- ']*$/", $username)) {
                 $usernameError = "Username can contain only letters and whitespace";
+            }
+        }
+
+        // Phone validation
+
+        if (!empty($mobile)) {
+            if (!preg_match("/^[0-9]*$/", $mobile)) {
+                $mobileError = "Invalid mobile number";
             }
         }
 
@@ -94,13 +103,14 @@ if (isset($_POST["register"])) {
             if (
                 $usernameError == ""
                 && $emailError == "" && $passwordError == "" && $confirmPasswordError == ""
+                && $mobileError == ""
             ) {
                 // hashing with md5
                 $password = md5($password);
 
-                $sql = "INSERT INTO users (username, email_address, user_password) VALUES (?, ?, ?)";
+                $sql = "INSERT INTO users (username, email_address, mobile_number, user_password) VALUES (?, ?, ?, ?)";
                 $statement = $conn->prepare($sql);
-                $statement->bind_param("sss", $username, $email, $password);
+                $statement->bind_param("ssis", $username, $email, $mobile,  $password);
                 $statement->execute();
 
                 $_SESSION["msg-type"] = "success";
@@ -133,15 +143,25 @@ if (isset($_POST["login"])) {
                 }
             }
 
+            // Phone validation
+
+            if (empty($mobile)) {
+                $mobileError = "mobile is required";
+            } else {
+                if (!preg_match("/^[0-9]*$/", $mobile)) {
+                    $mobileError = "Invalid mobile number";
+                }
+            }
+
             // Password Validation   
             if (empty($loginPassword)) {
                 $loginPasswordError = "Password is required";
             }
 
             $loginPassword = md5($loginPassword);
-            $sqlLogin = "SELECT * FROM users WHERE email_address = ? AND user_password = ? ";
+            $sqlLogin = "SELECT * FROM users WHERE email_address = ? OR mobile_number = ? AND user_password = ? ";
             $stmt = $conn->prepare($sqlLogin);
-            $stmt->bind_param("ss", $loginEmail, $loginPassword);
+            $stmt->bind_param("sis", $loginEmail, $mobile,  $loginPassword);
             $stmt->execute();
             $userResult = $stmt->get_result();
             $singleUserRow = $userResult->fetch_assoc();
