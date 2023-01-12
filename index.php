@@ -53,8 +53,8 @@ require("controllers/process-form.php");
                                 <div class="col-sm-10 col-lg-8">
                                     <h2 class="display-3 text-white animated slideInDown">ABOUT US</h2>
                                     <p class="fs-5 text-white mb-4 pb-2">We are teaching and providing education
-                                        materials and contents to all form 5 and form 6 students. Join now and enjoy
-                                        incredible resources, notes, exams and others anywhere online.</p>
+                                        materials and contents to all form 5 and form 6 students.
+                                    </p>
                                     <a href="about.php"
                                         class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
                                         More</a>
@@ -137,34 +137,7 @@ require("controllers/process-form.php");
         <!-- Main section Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="row g-5 my-2 py-2 box-shadow-container">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/h.jpg" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Notes and videos</h4>
-                        <p class="mb-4">The students have been given priority to access notes and videos which helps to
-                            increase the understanding of a student in answering different kinds of questions.</p>
-                    </div>
-                </div>
-                <div class="row g-5 my-5 py-2 box-shadow-container">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Practicals and solvings</h4>
-                        <p class="mb-4">We are providing sessions which are done practically which teaches the student
-                            on
-                            how to tackle the practical questions. </p>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/lab4.jpg" alt="alert"
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-5 my-2 py-2 box-shadow-container">
+                <div class="row g-5 my-4 py-2 box-shadow-container">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid img-rounded-circle position-absolute w-100 h-100"
@@ -175,11 +148,123 @@ require("controllers/process-form.php");
                         <h4 class="section-title bg-white text-start text-primary pe-3">About Us</h4>
                         <p class="mb-4">Mgote physics provide online services through providing useful notes which helps
                             the student to acquire more knowledge moreover we provide online classes.</p>
+                        <p>Mgote Physics intends to help students in Tanzania to access and get useful
+                            notes, practical sessions, and online tutorials done by Mr Mgote, thus by joning
+                            as a member of our platform, you will get access to explore amazing contents
+                            here. </p>
+                    </div>
+                </div>
+                <div class="row g-5 my-4 py-2 box-shadow-container">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Notes & teaching</h4>
+                        <p class="mb-4">The students have been given priority to access notes and videos which helps to
+                            increase the understanding of a student in answering different kinds of questions.We also
+                            have teaching sessions for Advanced students both form 5 and form 6, you may want to enroll
+                            for your next studies.</p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/student-in-the-classroom.jpg"
+                                alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 my-4 py-2 box-shadow-container">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Practicals & solvings</h4>
+                        <p class="mb-4">We are providing sessions which are done practically which teaches the student
+                            on how to tackle the practical questions. Further, We are undergoing practicals together
+                            with appropriate solvings for all advanced practicals. </p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/lab4.jpg" alt="alert"
+                                style="object-fit: cover;">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
+
+        <!-- Package Start -->
+        <div class="my-1">
+            <h2 class="fx-4 text-center">Premium Package</h2>
+        </div>
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4 d-md-flex align-items-stretch justify-content-between align-items-center">
+                    <div class="col-lg-5 col-sm-6 wow fadeInUp container-package py-2 border-bottom border-1 border-primary"
+                        data-wow-delay="0.3s">
+                        <div class="package-info text-center pt-3 pb-2 border-bottom border-1 border-secondary">
+                            <div class="p-4">
+                                <h3>1 Month</h3>
+                            </div>
+                            <div class="my-3">
+                                <span class="small"><del>Tsh 12000</del></span>
+                                <span class="ms-3 py-3 px-4 text-light badge rounded-pill bg-info">SAVE
+                                    60%</span>
+                            </div>
+                            <div class="my-3"><span class="display-6">Tsh 8000/</span>/<span
+                                    class="text-primary">mo</span></div>
+                            <div class="my-3">+2 months FREE</div>
+                            <div class="my-3 d-flex justify-content-center w-100">
+                                <button class="btn btn-info btn-lg"><a href="register.php"
+                                        class="text-light text-decoration-none">Be a member</a></button>
+                            </div>
+                        </div>
+                        <div class="package-features my-2">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i> All Notes</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Pdf(s) &
+                                    Handouts</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Video</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Examinations
+                                </li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Solvings</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Practicals</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>24/7 customer
+                                    support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-6 wow fadeInUp container-package pb-2 border-bottom border-1 border-primary"
+                        data-wow-delay="0.3s">
+                        <div class="package-info text-center pt-3 pb-2 border-bottom border-1 border-secondary">
+                            <div class="p-4">
+                                <h3>1 Week</h3>
+                            </div>
+                            <div class="my-3">
+                                <span class="small"><del>Tsh 6000</del></span>
+                                <span class="ms-3 py-3 px-4 text-light badge rounded-pill bg-info">SAVE
+                                    60%</span>
+                            </div>
+                            <div class="my-3"><span class="display-6">Tsh 3000/</span><span
+                                    class="text-primary">week</span></div>
+                            <div class="my-3">+1 week FREE</div>
+                            <div class="my-3 d-flex justify-content-center w-100">
+                                <button class="btn btn-info btn-lg"><a href="register.php"
+                                        class="text-light text-decoration-none">Be a member</a></button>
+                            </div>
+                        </div>
+                        <div class="package-features my-2">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i> All Notes</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Pdf(s) &
+                                    Handouts</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Video</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Examinations
+                                </li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Solvings</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Practicals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Package End -->
 
 
         <!-- Team Start -->
@@ -199,8 +284,6 @@ require("controllers/process-form.php");
                                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
                                     <a class="btn btn-sm-square btn-primary mx-1"
                                         href="https://www.facebook.com/said.mgote"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
                                     <a class="btn btn-sm-square btn-primary mx-1"
                                         href="https://www.instagram.com/saidmgote/"><i class="fab fa-instagram"></i></a>
                                 </div>
@@ -228,7 +311,7 @@ require("controllers/process-form.php");
                             </div>
                             <div class="text-center p-4">
                                 <h5 class="mb-0">Instructor Name</h5>
-                                <small>Designation</small>
+                                <small>Instructor</small>
                             </div>
                         </div>
                     </div>

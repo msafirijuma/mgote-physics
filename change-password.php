@@ -57,7 +57,7 @@ if (empty($_SESSION["user_id"])) {
                 <form action="change-password.php" method="POST">
                     <div class="form-group my-3">
                         <label for="oldPassword" class="form-label">Old Password</label>
-                        <input type="text" id="oldPassword" name="oldPassword" class="form-control"
+                        <input type="password" id="oldPassword" name="oldPassword" class="form-control"
                             placeholder="Old password">
                         <span class="text-danger"><?php echo $oldPasswordError ?></span>
                     </div>

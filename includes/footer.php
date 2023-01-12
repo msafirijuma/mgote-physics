@@ -8,7 +8,7 @@
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+255784956894"
                         class="text-light text-decoration-none">+255784956894</a></p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:saidabdallahmgote@gmail.com"
-                        class="text-light text-decoration-none">saidabdallahmgote@gmail.com</a></p>
+                        class="text-light text-decoration-none">mgotephysicsacademy@gmail.com</a></p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -22,8 +22,8 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; All Right Reserved.
-                    Designed By <a class="border-bottom" href="https://noelfaraja.netlify.app/">Namjr Tech</a>
+                    All Right Reserved. Mgote Physics &copy; <?php echo date("Y"); ?>
+                    <!-- Designed By <a class="border-bottom" href="https://noelfaraja.netlify.app/">Namjr Tech</a> -->
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-menu">

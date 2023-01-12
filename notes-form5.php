@@ -46,6 +46,8 @@ if (empty($_SESSION["user_id"])) {
         <div class="d-flex justify-content-center my-1 mt-3">
             <h2 class="text-primary">Form 5 Notes</h2>
         </div>
+
+
         <!-- Start Premium Features -->
         <div class="container-xxl py-5">
             <div class="container">

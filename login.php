@@ -25,7 +25,7 @@
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Register | Mgote Physics</title>
+        <title>Login | Mgote Physics</title>
     </head>
 
     <body>
@@ -53,14 +53,20 @@
                 <form action="login.php" method="POST">
                     <div class="form-group my-3">
                         <label for="" class="form-label">Email Or Phone</label>
-                        <input type="text" id="loginEmail" name="loginEmail" class="form-control"
-                            placeholder="Email Address or Phone">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            <input type="email" class="form-control" name="loginEmail" id="loginEmail"
+                                placeholder="Email Address or Phone" value="">
+                        </div>
                         <span class="text-danger"><?php echo $loginEmailError ?></span>
                     </div>
                     <div class="form-group my-3">
                         <label for="" class="form-label">Password</label>
-                        <input type="password" id="loginPassword" name="loginPassword" class="form-control"
-                            placeholder="Enter Password">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                            <input type="password" class="form-control" name="loginPassword" id="loginPassword"
+                                placeholder="Enter Password" value="">
+                        </div>
                         <span class="text-danger"><?php echo $loginPasswordError ?></span>
                     </div>
                     <button class="btn btn-primary w-100" name="login">Login</button>

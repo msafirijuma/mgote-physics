@@ -46,18 +46,18 @@ if (empty(testData($_SESSION["user_id"]))) {
         <div class="container-xxl py-5">
             <div class="container">
                 <?php
-                if (isset($_GET["view_profile"]) && isset($_SESSION["user_id"]) && $conn) {
-                    $loggedInUser = $_SESSION["user_id"];
-                    $fetchedViewUser = testData($_GET["view_profile"]);
-                    $fetchedViewUser = filter_var($fetchedViewUser, FILTER_VALIDATE_INT);
-                    $sqlFetchViewUser = "SELECT username, email_address, mobile_number FROM users WHERE user_id = '$fetchedViewUser'";
-                    $fetchedViewUser = mysqli_query($conn, $sqlFetchViewUser);
+            if (isset($_GET["view_profile"]) && isset($_SESSION["user_id"]) && $conn) {
+                $loggedInUser = $_SESSION["user_id"];
+                $fetchedViewUser = testData($_GET["view_profile"]);
+                $fetchedViewUser = filter_var($fetchedViewUser, FILTER_VALIDATE_INT);
+                $sqlFetchViewUser = "SELECT username, email_address, mobile_number FROM users WHERE user_id = '$fetchedViewUser'";
+                $fetchedViewUser = mysqli_query($conn, $sqlFetchViewUser);
 
-                    if (mysqli_num_rows($fetchedViewUser) === 1) {
-                        while ($rowUser = mysqli_fetch_assoc($fetchedViewUser)) {
-                ?>
+                if (mysqli_num_rows($fetchedViewUser) === 1) {
+                    while ($rowUser = mysqli_fetch_assoc($fetchedViewUser)) {
+            ?>
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
+                    <div class="bg-info modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title mx-auto" id="modalLabel">User Details</h5>
                         </div>
@@ -80,7 +80,7 @@ if (empty(testData($_SESSION["user_id"]))) {
                                         readonly />
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="profile.php" class="btn btn-sm d-block btn-secondary" id="updaterevenue"
+                                    <a href="profile.php" class="btn btn-lg d-block btn-secondary" id="updaterevenue"
                                         name="updaterevenue">OK</a>
                                 </div>
                             </form>

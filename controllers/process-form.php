@@ -159,9 +159,9 @@ if (isset($_POST["login"])) {
             }
 
             $loginPassword = md5($loginPassword);
-            $sqlLogin = "SELECT * FROM users WHERE email_address = ? OR mobile_number = ? AND user_password = ? ";
+            $sqlLogin = "SELECT * FROM users WHERE email_address = ? AND user_password = ? ";
             $stmt = $conn->prepare($sqlLogin);
-            $stmt->bind_param("sis", $loginEmail, $mobile,  $loginPassword);
+            $stmt->bind_param("ss", $loginEmail,$loginPassword);
             $stmt->execute();
             $userResult = $stmt->get_result();
             $singleUserRow = $userResult->fetch_assoc();

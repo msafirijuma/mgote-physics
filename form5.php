@@ -62,7 +62,7 @@ require("controllers/process-form.php");
                     available notes if you are interested, for more detailed and complete notes, join now as a member of
                     our platform.</p>
             </div>
-            <div class="mx-3 my-2">
+            <div class="mx-3 my-2 container-topics">
                 <ul class="px-0">
                     <li class="list-group-item"> <span class="text-uppercase text-primary">Mechanics</span>
                         <ul>

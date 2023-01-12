@@ -57,28 +57,24 @@ require("controllers/process-form.php");
                 <h6 class="section-title bg-white text-center text-primary px-3">Topics</h6>
                 <h1 class="mb-5">Topics available</h1>
             </div>
-            <div class="mx-3 my-2 text-lg-center p-lg-5">
+            <div class="mx-2 my-2 text-lg-center p-lg-5">
                 <p class="text-lg-center">We've provided to you some sample notes selected from different form 5 topics,
                     you can just preview
                     available notes if you are interested, for more detailed and complete notes, join now as a member of
                     our platform.</p>
             </div>
-            <div class="mx-3 my-2">
+            <div class="mx-3 my-2 container-topics">
                 <ul class="px-0">
-                    <li class="list-group-item"> <span class="text-uppercase text-primary">Mechanics</span>
-                        <ul>
-                            <li><a href="documents/preview-pdf/MEASUREMENT OF PHYSICAL QUANTITY.pdf"
-                                    class="text-decoration-none">Measurement</a></li>
-                            <li><a href="documents/preview-pdf/NEWTON'S LAW OF MOTION.pdf
-                    " class="text-decoration-none">Newton's laws of motion</a></li>
-                        </ul>
+                    <li class="list-group-item">
+                        <a href="documents/preview-pdf/HEAT.pdf" class="text-decoration-none">
+                            ELECTROMAGNETISM</a>
                     </li>
                     <li class="list-group-item"><a href="documents/preview-pdf/HEAT.pdf" class="text-decoration-none">
-                            HEAT AND THERMODYNAMICS</a>
+                            ELECTRONICS AND TELECOMMUNICATION</a>
                     </li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none">VIBRATIONS AND WAVE</a></li>
+                    <li class="list-group-item"><a href="#" class="text-decoration-none">CURRENT ELECTRICITY</a></li>
                     <li class="list-group-item"><a href="documents/preview-pdf/ELECTROSTATICS.pdf"
-                            class="text-decoration-none">ELECTROSTATICS</a></li>
+                            class="text-decoration-none">ATOMIC PHYSICS</a></li>
                 </ul>
             </div>
         </section>

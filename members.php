@@ -50,7 +50,7 @@ if (empty($_SESSION["user_id"])) {
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fab fa-3x fa-youtube text-primary mb-4"></i>
-                                <h5 class="mb-3"><a href="tutorials">Tutorials</a></h5>
+                                <h5 class="mb-3"><a href="tutorials.php">Tutorials</a></h5>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,9 @@ if (empty($_SESSION["user_id"])) {
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                                <h5 class="mb-3"><a href="#">Handout & PDF(s)</a></h5>
+                                <h5 class="mb-3"><a
+                                        href="https://drive.google.com/drive/folders/1J95cZADPEWbBZoSMidJVtvGacpqIG3bH">Handout
+                                        & PDF(s)</a></h5>
                             </div>
                         </div>
                     </div>
@@ -90,7 +92,9 @@ if (empty($_SESSION["user_id"])) {
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-folder-open k text-primary mb-4"></i>
-                                <h5 class="mb-3"><a href="examinations.php">Examinations</a></h5>
+                                <h5 class="mb-3"><a
+                                        href="https://drive.google.com/drive/folders/1-HASlbv2Uq1k5pzjL04Ia9hV3ezTGyAB">Examinations</a>
+                                </h5>
                             </div>
                         </div>
                     </div>
