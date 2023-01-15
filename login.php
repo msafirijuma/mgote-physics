@@ -34,8 +34,8 @@
         <?php require("includes/header.php"); ?>
 
 
-        <div class="d-flex justify-content-center align-items-center flex-column">
-            <h2 class="text-primary my-2 mt-5">Login</h2>
+        <div class="d-flex justify-content-center align-items-center flex-column login-section">
+            <h2 class="text-primary my-2 mt-5 section-title">Login</h2>
             <div class="form-container bg-info mx-auto my-3 px-3 py-4">
                 <?php if (isset($_POST["login"])) {
             ?>
@@ -69,12 +69,12 @@
                         </div>
                         <span class="text-danger"><?php echo $loginPasswordError ?></span>
                     </div>
-                    <button class="btn btn-primary w-100" name="login">Login</button>
+                    <button class="btn btn-primary w-100 btn-login" name="login">Login</button>
                     <div class="d-lg-flex justify-content-between align-items-center   my-3">
                         <div>Not yet a member? <a href="register.php"
                                 class="text-light text-decoration-none mx-1">register</a>
                         </div>
-                        <div><a href="forgot-password.php" class="text-danger text-decoration-none">Forgot
+                        <div><a href="forgot-password.php" class="text-danger text-decoration-none link-forgot">Forgot
                                 password?</a>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeLogin.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

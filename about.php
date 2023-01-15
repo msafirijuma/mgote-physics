@@ -6,7 +6,7 @@ require("controllers/process-form.php");
 
     <head>
         <meta charset="utf-8">
-        <title>MGOTE PHYSICS</title>
+        <title>About | MGOTE PHYSICS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -42,7 +42,7 @@ require("controllers/process-form.php");
         <?php require("includes/header.php"); ?>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container-fluid bg-primary py-5 page-header">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
@@ -55,7 +55,7 @@ require("controllers/process-form.php");
 
 
         <!-- About Start -->
-        <div class="container-xxl py-5">
+        <div class="py-5 about-section">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -116,6 +116,7 @@ require("controllers/process-form.php");
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="js/themes/themeAbout.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>

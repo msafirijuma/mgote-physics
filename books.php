@@ -6,7 +6,7 @@ require("controllers/process-form.php");
 
     <head>
         <meta charset="utf-8">
-        <title>MGOTE PHYSICS</title>
+        <title>Books | MGOTE PHYSICS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -68,7 +68,7 @@ require("controllers/process-form.php");
                     </li>
                     <li class="list-group-item">Modern ABC Physics</li>
                     <li class="list-group-item">Advanced Level Physics by Nelson Parker</li>
-                    <li class="list-group-item">Physics for Advanced LevelSecondary School by TIE</li>
+                    <li class="list-group-item">Physics for Advanced Level Secondary School by TIE</li>
                 </ul>
             </div>
         </section>

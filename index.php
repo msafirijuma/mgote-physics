@@ -6,7 +6,7 @@ require("controllers/process-form.php");
 
     <head>
         <meta charset="utf-8">
-        <title>MGOTE PHYSICS</title>
+        <title>Homepage | MGOTE PHYSICS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -42,7 +42,7 @@ require("controllers/process-form.php");
         <?php require("includes/header.php"); ?>
 
         <!-- Carousel Start -->
-        <div class="container-fluid p-0 mb-5">
+        <div class="container-fluid p-0">
             <div class="owl-carousel header-carousel position-relative">
                 <div class="owl-carousel-item position-relative">
                     <img class="img" src="img/e-formular.jpg" alt="alert">
@@ -135,7 +135,7 @@ require("controllers/process-form.php");
 
 
         <!-- Main section Start -->
-        <div class="container-xxl py-5">
+        <div class="py-5 about-section">
             <div class="container">
                 <div class="row g-5 my-4 py-2 box-shadow-container">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -188,10 +188,10 @@ require("controllers/process-form.php");
         <!-- About End -->
 
         <!-- Package Start -->
-        <div class="my-1">
-            <h2 class="fx-4 text-center">Premium Package</h2>
-        </div>
-        <div class="container-xxl py-5">
+        <div class="py-5 px-2 package-section">
+            <div class="my-3 mb-5">
+                <h2 class="fx-4 text-center">Premium Package</h2>
+            </div>
             <div class="container">
                 <div class="row g-4 d-md-flex align-items-stretch justify-content-between align-items-center">
                     <div class="col-lg-5 col-sm-6 wow fadeInUp container-package py-2 border-bottom border-1 border-primary"
@@ -205,8 +205,8 @@ require("controllers/process-form.php");
                                 <span class="ms-3 py-3 px-4 text-light badge rounded-pill bg-info">SAVE
                                     60%</span>
                             </div>
-                            <div class="my-3"><span class="display-6">Tsh 8000/</span>/<span
-                                    class="text-primary">mo</span></div>
+                            <div class="my-3"><span class="display-6">Tsh 8000/</span><span
+                                    class="text-primary duration">mo</span></div>
                             <div class="my-3">+2 months FREE</div>
                             <div class="my-3 d-flex justify-content-center w-100">
                                 <button class="btn btn-info btn-lg"><a href="register.php"
@@ -240,7 +240,7 @@ require("controllers/process-form.php");
                                     60%</span>
                             </div>
                             <div class="my-3"><span class="display-6">Tsh 3000/</span><span
-                                    class="text-primary">week</span></div>
+                                    class="text-primary duration">week</span></div>
                             <div class="my-3">+1 week FREE</div>
                             <div class="my-3 d-flex justify-content-center w-100">
                                 <button class="btn btn-info btn-lg"><a href="register.php"
@@ -268,7 +268,7 @@ require("controllers/process-form.php");
 
 
         <!-- Team Start -->
-        <div class="container-xxl py-5">
+        <div class="py-5 team-section">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
@@ -333,6 +333,7 @@ require("controllers/process-form.php");
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="js/themes/themeHomepage.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>

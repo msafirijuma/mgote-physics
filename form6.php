@@ -38,7 +38,7 @@ require("controllers/process-form.php");
         <?php require("includes/header.php"); ?>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container-fluid bg-primary py-5 page-header">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
@@ -51,7 +51,7 @@ require("controllers/process-form.php");
 
 
         <!-- Topics -->
-        <section class="notes">
+        <section class="py-5 notes notes-form-section">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s"
                 style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                 <h6 class="section-title bg-white text-center text-primary px-3">Topics</h6>
@@ -91,6 +91,7 @@ require("controllers/process-form.php");
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="js/themes/themeNotesForm.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>

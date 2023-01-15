@@ -42,7 +42,7 @@ require("controllers/process-form.php");
         <?php require("includes/header.php"); ?>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container-fluid bg-primary py-5 page-header">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
@@ -54,8 +54,7 @@ require("controllers/process-form.php");
         <!-- Header End -->
 
 
-        <!-- 404 Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="py-5 wow fadeInUp notes-form-section" data-wow-delay="0.1s">
             <div class="container text-center">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
@@ -68,12 +67,8 @@ require("controllers/process-form.php");
                 </div>
             </div>
         </div>
-        <!-- 404 End -->
 
-
-
-
-
+        <?php require("includes/footer.php") ?>
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
@@ -85,6 +80,7 @@ require("controllers/process-form.php");
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="js/themes/themeNotesForm.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>

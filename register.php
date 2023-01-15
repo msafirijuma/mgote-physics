@@ -35,8 +35,8 @@
 
         <?php require("includes/header.php"); ?>
 
-        <div class="d-flex justify-content-center align-items-center flex-column">
-            <h2 class="text-primary my-2 mt-5">Create Account</h2>
+        <div class="d-flex justify-content-center align-items-center flex-column register-section">
+            <h2 class="text-primary my-2 mt-5 section-title">Create Account</h2>
             <div class="form-container bg-info mx-auto my-3 px-3 py-4">
                 <?php if (isset($_POST["register"])) {
             ?>
@@ -82,7 +82,7 @@
                             placeholder="Confirm Password">
                         <span class="text-danger"><?php echo $confirmPasswordError ?></span>
                     </div>
-                    <button type="submit" name="register" class="btn btn-primary w-100">Register</button>
+                    <button type="submit" name="register" class="btn btn-primary w-100 btn-register">Register</button>
                     <div class="my-3">
                         <h6>Already a member? <span class="text-primary"><a href="login.php"
                                     class="text-light text-decoration-none mx-1">login</a>
@@ -104,7 +104,7 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeRegister.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

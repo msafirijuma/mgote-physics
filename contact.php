@@ -40,7 +40,7 @@
         <?php require("includes/header.php"); ?>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container-fluid bg-primary py-5 page-header">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
@@ -52,8 +52,9 @@
         <!-- Header End -->
 
 
+
         <!-- Contact Start -->
-        <div class="container-xxl py-5">
+        <div class="px-2 py-5 contact-section">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
@@ -63,34 +64,34 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <h2>Address</h2>
                         <div class="d-flex align-items-center mb-3">
-                            <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            <div class="d-flex align-items-center justify-content-center contact-icon  flex-shrink-0 bg-primary"
                                 style="width: 50px; height: 50px;">
                                 <i class="fa fa-map-marker-alt text-white"></i>
                             </div>
                             <div class="ms-3">
-                                <h5 class="text-primary">Office</h5>
+                                <h5 class="text-primary text-title">Office</h5>
                                 <p class="mb-0">Mchikichini , Dar es salaam</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-3">
-                            <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            <div class="d-flex align-items-center justify-content-center contact-icon  flex-shrink-0 bg-primary"
                                 style="width: 50px; height: 50px;">
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
                             <div class="ms-3">
-                                <h5 class="text-primary">Mobile</h5>
+                                <h5 class="text-primary text-title">Mobile</h5>
                                 <p class="mb-0" title="Make a quick call"><a href="tel:+255784956894"
                                         class="text-dark text-decoration-none">0784956894</a>
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center">
-                            <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                        <div class="d-flex align-items-center ">
+                            <div class="d-flex align-items-center justify-content-center contact-icon flex-shrink-0 bg-primary"
                                 style="width: 50px; height: 50px;">
                                 <i class="fa fa-envelope-open text-white"></i>
                             </div>
                             <div class="ms-3">
-                                <h5 class="text-primary">Email</h5>
+                                <h5 class="text-primary text-title">Email</h5>
                                 <p class="mb-0" title="Send us a message"><a class="text-dark text-decoration-none"
                                         href="mailto:saidabdallahmgote@gmail.com">saidabdallahmgote@gmail.com</a></p>
                             </div>
@@ -159,7 +160,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit" name="sendMessage">Send
+                                    <button class="btn btn-primary btn-message w-100 py-3" type="submit"
+                                        name="sendMessage">Send
                                         Message</button>
                                 </div>
                             </div>
@@ -183,7 +185,7 @@
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+        <script src="js/themes/themeContact.js"></script>
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>

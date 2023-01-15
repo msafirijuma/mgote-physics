@@ -1,8 +1,33 @@
 /********** Template CSS **********/
 :root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
   --primary: #06bbcc;
   --light: #f0fbfc;
   --dark: #181d38;
+  --container-dark-mode: #303a40;
+  --section-dark-mode: #2b3439;
+  --dark-mode: #2b3439;
+  --light-mode: #e9e9e9;
 }
 
 .fw-medium {
@@ -85,7 +110,8 @@
 
 .navbar-light .navbar-nav .nav-link {
   margin-right: 30px;
-  padding: 25px 0;
+  padding: 21px 0;
+  padding-top: 25px;
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
@@ -326,6 +352,7 @@
   padding-right: 0;
   border-right: none;
 }
+
 .mapouter {
   position: relative;
   text-align: center;
@@ -338,6 +365,224 @@
   background: none !important;
   min-height: 300px;
   width: 350px;
+}
+
+/* DARK MODE FEATURE */
+
+#themeToggler {
+  font-size: 1.8rem;
+}
+
+/*** header carousel ***/
+.header-carousel-dark-mode {
+  padding: 1px;
+}
+
+.header-carousel-dark-mode .slideInLeft {
+  background-color: black !important;
+  color: #ffffff;
+  border: unset;
+}
+
+/*** about section ***/
+.navbar-dark-mode {
+  background-color: var(--section-dark-mode) !important;
+  color: var(--light-mode) !important;
+}
+
+.navbar-dark-mode .brand-name {
+  color: var(--light-mode) !important;
+}
+
+.navbar-dark-mode .navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-dark-mode .nav-link {
+  color: var(--light) !important;
+}
+
+.navbar-dark-mode .join-btn {
+  background-color: var(--container-dark-mode) !important;
+  border-color: var(--light) !important;
+  border-bottom: unset !important;
+}
+
+.back-to-top-dark-mode {
+  background-color: var(--dark-mode) !important;
+  color: var(--light) !important;
+  border: unset !important;
+}
+
+.back-to-top-dark-mode:hover {
+  background-color: var(--light) !important;
+  color: var(--dark-mode) !important;
+  border: unset !important;
+}
+
+/*** about section ***/
+.about-section-dark-mode {
+  background-color: var(--section-dark-mode);
+  color: var(--light-mode);
+}
+
+.about-section-dark-mode .section-title {
+  background-color: unset !important;
+  color: var(--light) !important;
+  border: none !important;
+}
+
+/*** package section ***/
+.package-section-dark-mode {
+  background-color: var(--container-dark-mode);
+  color: var(--light-mode);
+}
+
+.package-section-dark-mode .list-group-flush > .list-group-item {
+  color: var(--dark);
+}
+
+.package-section-dark-mode .btn-info {
+  background-color: var(--container-dark-mode);
+  border-color: var(--light);
+}
+
+.package-section-dark-mode .badge {
+  background-color: white !important;
+  color: black !important;
+  font-size: 18px;
+}
+
+.package-section-dark-mode .duration {
+  color: var(--light) !important;
+  font-size: 20px;
+}
+
+.package-section-dark-mode .border-primary {
+  border: 2px solid var(--light) !important;
+}
+
+/*** team section ***/
+.team-section-dark-mode {
+  background-color: var(--section-dark-mode);
+  color: var(--light-mode);
+}
+
+.team-section-dark-mode .section-title {
+  background-color: unset !important;
+  color: var(--light) !important;
+}
+
+.team-section-dark-mode .team-item {
+  color: var(--dark) !important;
+}
+
+.team-section-dark-mode .btn-sm-square {
+  color: var(--light) !important;
+  background-color: var(--dark-mode);
+}
+
+/*** contact section ***/
+.contact-section-dark-mode {
+  background-color: var(--section-dark-mode) !important;
+  color: var(--light-mode) !important;
+}
+
+.contact-section-dark-mode .section-title {
+  background-color: unset !important;
+  color: var(--light) !important;
+  border: none !important;
+}
+
+.contact-section-dark-mode .contact-icon {
+  background-color: var(--dark-mode) !important;
+  border: 1px solid white !important;
+  border-radius: 0.25rem !important;
+}
+
+.contact-section-dark-mode .text-title {
+  color: var(--light-mode) !important;
+}
+
+.contact-section-dark-mode .text-decoration-none {
+  color: var(--light-mode) !important;
+}
+
+.contact-section-dark-mode input::placeholder {
+  color: black !important;
+}
+
+.contact-section-dark-mode .btn-message {
+  color: var(--dark) !important;
+  background-color: var(--light) !important;
+  font-size: 1.2rem !important;
+  border-color: white !important;
+}
+
+/*** notes form 5 and form 6 sections ***/
+.notes-form-section-dark-mode {
+  background-color: var(--section-dark-mode) !important;
+  color: var(--light-mode) !important;
+}
+
+.notes-form-section-dark-mode .text-decoration-none {
+  color: var(--dark) !important;
+}
+
+.notes-form-section-dark-mode .list-group-item > span {
+  color: var(--dark) !important;
+}
+
+.notes-form-section-dark-mode .section-title {
+  background-color: unset !important;
+  color: var(--light) !important;
+  border: none !important;
+  font-size: 1.2rem;
+}
+
+/*** register section ***/
+.register-section-dark-mode {
+  background-color: var(--section-dark-mode) !important;
+  color: var(--light-mode) !important;
+}
+.register-section-dark-mode .form-container {
+  background-color: var(--bs-dark) !important;
+}
+
+.register-section-dark-mode .section-title {
+  color: var(--light) !important;
+}
+
+.register-section-dark-mode .btn-register {
+  color: var(--bs-light) !important;
+  background: var(--bs-dark) !important;
+  font-size: 1.3rem !important;
+  border: 1px solid white !important;
+}
+
+/*** login section ***/
+.login-section-dark-mode {
+  background-color: var(--section-dark-mode) !important;
+  color: var(--light-mode) !important;
+}
+
+.login-section-dark-mode .form-container {
+  background-color: var(--bs-dark) !important;
+}
+
+.login-section-dark-mode .section-title {
+  color: var(--light) !important;
+}
+
+.login-section-dark-mode .link-forgot {
+  color: var(--light) !important;
+}
+
+.login-section-dark-mode .btn-login {
+  color: var(--bs-light) !important;
+  background: var(--bs-dark) !important;
+  font-size: 1.3rem !important;
+  border: 1px solid white !important;
 }
 
 /* MEDIA QUERIES */
@@ -463,9 +708,14 @@
   }
 
   .join-btn {
-    margin-inline: 20px;
     margin-bottom: 15px;
     height: 74px;
-    width: 80%;
+    width: 100%;
+  }
+
+  .navbar-dark-mode .join-btn {
+    background-color: var(--container-dark-mode) !important;
+    border-color: var(--light) !important;
+    border-bottom: 1px solid var(--light) !important;
   }
 }
