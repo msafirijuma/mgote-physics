@@ -38,11 +38,9 @@ if (empty($_SESSION["user_id"])) {
     <body>
         <?php include("./includes/header.php"); ?>
 
-        <div class="d-flex justify-content-center my-1 mt-5">
-            <h2 class="text-primary">Advanced Level Notes</h2>
-        </div>
+
         <!-- Start Premium Features -->
-        <div class="container-xxl py-5">
+        <div class="px-2 py-5 premium-section">
             <div class="container">
                 <div class="row g-4 d-flex justify-content-center">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -80,7 +78,7 @@ if (empty($_SESSION["user_id"])) {
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeMembers.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

@@ -36,7 +36,7 @@
         <?php require("includes/header.php"); ?>
 
         <div class="d-flex justify-content-center align-items-center flex-column register-section">
-            <h2 class="text-primary my-2 mt-5 section-title">Create Account</h2>
+            <h2 class="text-primary my-2 mt-5 text-uppercase text-register">Create Account</h2>
             <div class="form-container bg-info mx-auto my-3 px-3 py-4">
                 <?php if (isset($_POST["register"])) {
             ?>
@@ -61,7 +61,7 @@
                     <div class="form-group my-3">
                         <label for="" class="form-label">Email Address <span class="text-dark">*</span></label>
                         <input type="email" id="email" name="email" class="form-control" value="<?php echo $email;  ?>"
-                            placeholder="Enter valid email address or phone">
+                            placeholder="Enter valid email address">
                         <span class="text-danger"><?php echo $emailError; ?></span>
                     </div>
                     <div class="form-group my-3">

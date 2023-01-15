@@ -39,11 +39,20 @@ if (empty(testData($_SESSION["user_id"]))) {
 
         <?php require("includes/header.php"); ?>
 
-        <div class="d-flex justify-content-center my-1 mt-5">
-            <h2 class="text-primary">Account Info</h2>
+        <!-- Header Start -->
+        <div class="container-fluid bg-primary py-5 page-header">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h1 class="display-6 text-white animated slideInDown">Account Info</h1>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Header End -->
+
         <!-- Start Premium Features -->
-        <div class="container-xxl py-5">
+        <div class="py-5 px-2 register-section">
             <div class="container">
                 <?php
             if (isset($_GET["view_profile"]) && isset($_SESSION["user_id"]) && $conn) {
@@ -57,7 +66,7 @@ if (empty(testData($_SESSION["user_id"]))) {
                     while ($rowUser = mysqli_fetch_assoc($fetchedViewUser)) {
             ?>
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div class="bg-info modal-content">
+                    <div class="bg-info modal-content form-container">
                         <div class="modal-header">
                             <h5 class="modal-title mx-auto" id="modalLabel">User Details</h5>
                         </div>
@@ -79,7 +88,7 @@ if (empty(testData($_SESSION["user_id"]))) {
                                     <input class="form-control" value=" <?php echo $rowUser["mobile_number"]; ?> "
                                         readonly />
                                 </div>
-                                <div class="modal-footer">
+                                <div class="modal-footer my-2">
                                     <a href="profile.php" class="btn btn-lg d-block btn-secondary" id="updaterevenue"
                                         name="updaterevenue">OK</a>
                                 </div>
@@ -108,7 +117,7 @@ if (empty(testData($_SESSION["user_id"]))) {
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeRegister.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

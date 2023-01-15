@@ -2,7 +2,8 @@ let themeToggler = document.querySelector("#themeToggler");
 let darkMode = localStorage.getItem("dark-mode")
 toggleDarkMode = () => {
     themeToggler.classList.replace("fa-toggle-off", "fa-toggle-on");
-    let registerSection = document.querySelector(".register-section");
+    let premiumSection = document.querySelector(".premium-section");
+
     let navbarSection = document.querySelector(".navbar");
     let backToTop = document.querySelector(".back-to-top");
 
@@ -21,11 +22,11 @@ toggleDarkMode = () => {
         backToTop.classList.remove("navbar-dark-mode");
     }
 
-    // about section
-    if (registerSection.classList.contains("register-section")) {
-        registerSection.classList.replace("register-section", "register-section-dark-mode");
+    // premium section
+    if (premiumSection.classList.contains("premium-section")) {
+        premiumSection.classList.replace("premium-section", "premium-section-dark-mode");
     } else {
-        registerSection.classList.replace("register-section-dark-mode", "register-section");
+        premiumSection.classList.replace("premium-section-dark-mode", "premium-section");
     }
 
     localStorage.setItem("dark-mode", "enabled");
@@ -34,7 +35,7 @@ toggleDarkMode = () => {
 toggleLightMode = () => {
     themeToggler.classList.replace("fa-toggle-on", "fa-toggle-off");
 
-    let registerSection = document.querySelector(".register-section-dark-mode")
+    let premiumSection = document.querySelector(".premium-section-dark-mode")
     let navbarSection = document.querySelector(".navbar-dark-mode");
     let backToTop = document.querySelector(".back-to-top");
 
@@ -52,11 +53,11 @@ toggleLightMode = () => {
         backToTop.classList.add("back-to-top-dark-mode")
     }
 
-    // about section
-    if (registerSection.classList.contains("register-section-dark-mode")) {
-        registerSection.classList.replace("register-section-dark-mode", "register-section")
+    // premium section
+    if (premiumSection.classList.contains("premium-section-dark-mode")) {
+        premiumSection.classList.replace("premium-section-dark-mode", "premium-section")
     } else {
-        registerSection.classList.replace("register-section", "register-section-dark-mode")
+        premiumSection.classList.replace("premium-section", "premium-section-dark-mode")
     }
 
 

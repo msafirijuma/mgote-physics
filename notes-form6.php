@@ -37,17 +37,21 @@ if (empty($_SESSION["user_id"])) {
 
     <body>
         <?php include("includes/header.php"); ?>
-        <div class="my-3 mx-4 mx-md-5">
-            <h3 class="btn btn-primary">
-                <a href="notes.php" class="text-light text-decoration-none">
-                    < back</a>
-            </h3>
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-primary py-5 page-header">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h1 class="display-3 text-white animated slideInDown">Form 6 Notes</h1>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="d-flex justify-content-center my-1 mt-3">
-            <h2 class="text-primary">Form 6 Notes</h2>
-        </div>
+        <!-- Header End -->
+
         <!-- Start Premium Features -->
-        <div class="container-xxl py-5">
+        <div class="px-2 py-5 premium-section">
             <div class="container">
                 <div class="row g-4 d-flex align-items-center">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -110,7 +114,7 @@ if (empty($_SESSION["user_id"])) {
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeMembers.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

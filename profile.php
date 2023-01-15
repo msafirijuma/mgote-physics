@@ -37,21 +37,31 @@ if (empty($_SESSION["user_id"])) {
 
     <body>
         <?php include("includes/header.php"); ?>
-        <div class="my-3 mx-4 mx-md-5">
-            <h3 class="btn btn-primary text-light">
-                <a href="members.php" class="text-light text-decoration-none">
-                    < back</a>
-            </h3>
-        </div>
-        <div class="d-flex justify-content-center my-1 mt-3">
-            <h2 class="text-primary">My Account (
-                <?php if (isset($_SESSION["username"])) {
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-primary py-5 page-header">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="my-3 mx-4 mx-md-5">
+                        <h2 class="btn btn-primary text-light">
+                            <a href="members.php" class="text-light text-decoration-none">
+                                < back</a>
+                        </h2>
+                    </div>
+                    <div class="col-lg-10 text-center">
+                        <h2 class="text-white animated slideInDown">My Account
+                            (
+                            <?php if (isset($_SESSION["username"])) {
                 echo $_SESSION["username"];
             } ?> )
-            </h2>
+                        </h2>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Header End -->
         <!-- Start Premium Features -->
-        <div class="container-xxl py-5">
+        <div class="px-2 py-5 premium-section">
             <div class="container">
                 <div class="row g-4 d-flex align-items-center justify-content-center">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -103,7 +113,7 @@ if (empty($_SESSION["user_id"])) {
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeMembers.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

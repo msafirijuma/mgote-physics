@@ -38,8 +38,8 @@ if (empty($_SESSION["user_id"])) {
         <?php require("includes/header.php"); ?>
 
 
-        <div class="d-flex justify-content-center align-items-center flex-column">
-            <h2 class="text-primary my-2 mt-5">Change Password</h2>
+        <div class="py-5 px-2 d-flex justify-content-center align-items-center flex-column register-section">
+            <h2 class="text-primary my-2 mt-5 section-title">Change Password</h2>
             <div class="form-container bg-info mx-auto my-3 px-3 py-4">
                 <?php if (isset($_POST["changePassword"])) {
             ?>
@@ -73,7 +73,8 @@ if (empty($_SESSION["user_id"])) {
                             placeholder="Confirm new password">
                         <span class="text-danger"><?php echo $confirmNewPasswordError ?></span>
                     </div>
-                    <button class="btn btn-primary w-100" name="changePassword">Update Password</button>
+                    <button class="btn btn-primary w-100 btn-update-pword" name="changePassword">Update
+                        Password</button>
                 </form>
             </div>
         </div>
@@ -90,7 +91,7 @@ if (empty($_SESSION["user_id"])) {
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeRegister.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

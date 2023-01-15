@@ -35,7 +35,7 @@
 
 
         <div class="d-flex justify-content-center align-items-center flex-column login-section">
-            <h2 class="text-primary my-2 mt-5 section-title">Login</h2>
+            <h2 class="text-primary my-2 mt-5 text-uppercase text-login">Login</h2>
             <div class="form-container bg-info mx-auto my-3 px-3 py-4">
                 <?php if (isset($_POST["login"])) {
             ?>

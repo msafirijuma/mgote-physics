@@ -39,8 +39,8 @@ if (empty($_SESSION["user_id"])) {
         <?php require("includes/header.php"); ?>
 
 
-        <div class="d-flex justify-content-center align-items-center flex-column">
-            <h2 class="text-primary my-2 mt-5">Edit Profile</h2>
+        <div class="py-5 px-2 d-flex justify-content-center align-items-center flex-column register-section">
+            <h2 class="text-primary my-2 mt-5 section-title">Edit Profile</h2>
             <div class="form-container bg-info mx-auto my-3 px-3 py-4">
                 <?php if (isset($_POST["editProfile"])) {
             ?>
@@ -79,7 +79,7 @@ if (empty($_SESSION["user_id"])) {
                             placeholder="Your mobile number" value=" <?php echo $userRow["mobile_number"] ?> ">
                         <span class="text-danger"><?php echo $editMobileError ?></span>
                     </div>
-                    <button class="btn btn-primary w-100" name="editProfile">Save Changes</button>
+                    <button class="btn btn-primar btn-update-profile y w-100" name="editProfile">Save Changes</button>
                 </form>
                 <?php } ?>
                 <?php } ?>
@@ -99,7 +99,7 @@ if (empty($_SESSION["user_id"])) {
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="js/themes/themeRegister.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 

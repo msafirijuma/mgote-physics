@@ -125,10 +125,8 @@ themeToggler.addEventListener("click", () => {
 
     if (darkMode === "disabled") {
         toggleDarkMode();
-        themeToggler.title = "Switch to light mode"
     } else {
         toggleLightMode();
-        themeToggler.title = "Switch to dark mode"
     }
 
     document.body.classList.toggle("dark");

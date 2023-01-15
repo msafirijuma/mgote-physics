@@ -153,9 +153,9 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" name="message" placeholder="Leave a message here"
-                                            id="message" style="height: 150px"></textarea>
-                                        <label for="message">message</label>
+                                        <textarea class="form-control" name="message" placeholder="Message" id="message"
+                                            style="height: 150px"></textarea>
+                                        <label for="message">Message</label>
                                         <span class="text-danger"><?php echo $messageError ?></span>
                                     </div>
                                 </div>

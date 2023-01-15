@@ -17,8 +17,6 @@ if (isset($_POST["editProfile"])) {
         $editMobile = testData($_POST["editMobile"]);
         $activeUser = $_SESSION["user_id"];
 
-        echo $activeUser;
-
         // Validate Username
         if (empty($editUsername)) {
             $editUsernameError = "Username is required";

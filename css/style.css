@@ -373,6 +373,10 @@
   font-size: 1.8rem;
 }
 
+#themeToggler:hover {
+  cursor: pointer;
+}
+
 /*** header carousel ***/
 .header-carousel-dark-mode {
   padding: 1px;
@@ -529,7 +533,8 @@
   color: var(--dark) !important;
 }
 
-.notes-form-section-dark-mode .list-group-item > span {
+.notes-form-section-dark-mode .list-group-item,
+.notes-form-section-dark-mode .list-group-item .text-primary {
   color: var(--dark) !important;
 }
 
@@ -549,11 +554,13 @@
   background-color: var(--bs-dark) !important;
 }
 
-.register-section-dark-mode .section-title {
+.register-section-dark-mode .text-register {
   color: var(--light) !important;
 }
 
-.register-section-dark-mode .btn-register {
+.register-section-dark-mode .btn-register,
+.register-section-dark-mode .btn-update-pword,
+.register-section-dark-mode .btn-update-profile {
   color: var(--bs-light) !important;
   background: var(--bs-dark) !important;
   font-size: 1.3rem !important;
@@ -570,7 +577,7 @@
   background-color: var(--bs-dark) !important;
 }
 
-.login-section-dark-mode .section-title {
+.login-section-dark-mode .text-login {
   color: var(--light) !important;
 }
 
@@ -583,6 +590,25 @@
   background: var(--bs-dark) !important;
   font-size: 1.3rem !important;
   border: 1px solid white !important;
+}
+
+/*** premium section ***/
+.premium-section-dark-mode {
+  background-color: var(--section-dark-mode) !important;
+  color: var(--light-mode) !important;
+}
+
+.premium-section-dark-mode .service-item {
+  background: var(--bs-white) !important;
+}
+
+.premium-section-dark-mode .service-item .fa-3x {
+  color: var(--bs-gray-dark) !important;
+}
+
+.premium-section-dark-mode .service-item a {
+  color: var(--container-dark-mode) !important;
+  font-size: 1.4rem !important;
 }
 
 /* MEDIA QUERIES */
