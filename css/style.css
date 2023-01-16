@@ -545,6 +545,16 @@
   font-size: 1.2rem;
 }
 
+.notes-form-section-dark-mode .bi-exclamation-triangle {
+  color: var(--light) !important;
+}
+
+.notes-form-section-dark-mode .mb-5 .rounded-pill {
+  background-color: var(--bs-dark);
+  border-color: white;
+  font-size: 20px;
+}
+
 /*** register section ***/
 .register-section-dark-mode {
   background-color: var(--section-dark-mode) !important;

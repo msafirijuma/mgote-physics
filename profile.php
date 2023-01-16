@@ -42,12 +42,6 @@ if (empty($_SESSION["user_id"])) {
         <div class="container-fluid bg-primary py-5 page-header">
             <div class="container py-5">
                 <div class="row justify-content-center">
-                    <div class="my-3 mx-4 mx-md-5">
-                        <h2 class="btn btn-primary text-light">
-                            <a href="members.php" class="text-light text-decoration-none">
-                                < back</a>
-                        </h2>
-                    </div>
                     <div class="col-lg-10 text-center">
                         <h2 class="text-white animated slideInDown">My Account
                             (
