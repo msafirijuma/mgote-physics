@@ -67,6 +67,10 @@ require("controllers/process-form.php");
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
                         <h1 class="mb-4">WELCOME TO MGOTE PHYSICS</h1>
+                        <p>Said Abdallah Mgote is a graduate of University of Dar Es Salaam taugth phyiscs subject at
+                            various schools in Tanzania like Kibiti Secondary in Pwani Region, Ahmes Secondary and
+                            Tusiime Secondary in Dar Es Salaam. He is now teaching Physics at Mgote Academy located at
+                            Mchikichini near Ilala Boma. </p>
                         <p class="mb-4">Education helps us get exposure to new ideas and concepts that we can use to
                             appreciate and improve the world around us and the world within us.This platform was created
                             for the purpose of helping students to acquire useful knowledge and contents shared by most

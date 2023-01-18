@@ -111,16 +111,16 @@ if (empty($_SESSION["user_id"])) {
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-user-circle text-primary mb-4"></i>
-                                <h5 class="mb-3"><a href="profile.php">Your Profile</a></h5>
+                                <i class="fa fa-3x fa-flask text-primary mb-4"></i>
+                                <h5 class="mb-3"><a href="profile.php">Practicals</a></h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-flask text-primary mb-4"></i>
-                                <h5 class="mb-3"><a href="profile.php">Practicals</a></h5>
+                                <i class="fa fa-3x fa-user-circle text-primary mb-4"></i>
+                                <h5 class="mb-3"><a href="profile.php">My Account</a></h5>
                             </div>
                         </div>
                     </div>

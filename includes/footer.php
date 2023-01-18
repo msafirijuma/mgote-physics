@@ -10,10 +10,16 @@
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:saidabdallahmgote@gmail.com"
                         class="text-light text-decoration-none">mgotephysicsacademy@gmail.com</a></p>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-whatsapp"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://twitter.com/mgote_physics"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://www.facebook.com/profile.php?id=100089468976624"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://api.whatsapp.com/send/?phone=255784956894&text&type=phone_number&app_absent=0"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/mgote_physics/"><i
+                            class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>

@@ -560,6 +560,7 @@
   background-color: var(--section-dark-mode) !important;
   color: var(--light-mode) !important;
 }
+
 .register-section-dark-mode .form-container {
   background-color: var(--bs-dark) !important;
 }
@@ -645,11 +646,16 @@
     box-shadow: 2px 2px 4px rgb(0 0 0 / 40%) !important;
   }
 
-  .container-topics {
+  .reference-container {
     width: 500px;
     margin-inline: auto !important;
     font-size: 25px;
     padding: 10px;
+  }
+
+  .reference-container {
+    max-width: 750px;
+    margin-inline: auto !important;
   }
 }
 

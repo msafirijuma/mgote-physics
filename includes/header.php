@@ -10,6 +10,7 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="index.php" class="nav-item nav-link active">Home</a>
             <a href="about.php" class="nav-item nav-link">About</a>
+            <a href="contact.php" class="nav-item nav-link">Contact</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
                 <div class="dropdown-menu fade-down m-0">
@@ -18,7 +19,6 @@
                     <a href="videos.php" class="dropdown-item">VIDEOS</a>
                 </div>
             </div>
-            <a href="contact.php" class="nav-item nav-link">Contact</a>
             <!-- only logged in and user paid package can see it -->
             <?php
             if (!empty($_SESSION["user_id"])) : ?>

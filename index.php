@@ -52,6 +52,10 @@ require("controllers/process-form.php");
                             <div class="row justify-content-start">
                                 <div class="col-sm-10 col-lg-8">
                                     <h2 class="display-3 text-white animated slideInDown">ABOUT US</h2>
+                                    <p class="fs-5 text-white mb-4 pb-2">A number one platform created
+                                        for the purpose of helping students to acquire useful knowledge and contents
+                                        shared by most
+                                        experienced instructors and teachers.</p>
                                     <p class="fs-5 text-white mb-4 pb-2">We are teaching and providing education
                                         materials and contents to all form 5 and form 6 students.
                                     </p>
@@ -66,6 +70,28 @@ require("controllers/process-form.php");
                     </div>
                 </div>
                 <div class="owl-carousel-item position-relative">
+                    <img class="img img-fluid opacity-25" src="img/Plasma-Particle-Physics-Art-Concept.jpg" alt="alert">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, .7);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-sm-10 col-lg-8">
+                                    <h2 class="display-3 text-white animated slideInDown">PRE FORM V SESSIONS</h2>
+                                    <p class="fs-5 text-white mb-4 pb-2">If you are form IV leaver and you want to do
+                                        preparation for Advanced level, here is the solution for you. We've already
+                                        launch our 2023 pre form V session. For detailed information, reach us here by
+                                        contact or email us.
+                                    </p>
+                                    <a href="tel:+255784956894"
+                                        class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Call Us</a>
+                                    <a href="mailto:saidabdallahmgote@gmail.com"
+                                        class="btn btn-light py-md-3 px-md-5 animated slideInRight">Message Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
                     <img class="img" src="img/lab5.jpg" alt="Student in the laboratory">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                         style="background: rgba(24, 29, 56, .7);">
@@ -74,7 +100,8 @@ require("controllers/process-form.php");
                                 <div class="col-sm-10 col-lg-8">
                                     <h2 class="display-3 text-white animated slideInDown">PRACTICALS</h2>
                                     <p class="fs-5 text-white mb-4 pb-2">Get an impressive and well
-                                        structured A level practical trainings for the preparation of your A level final
+                                        structured A level practical trainings for the preparation of your A level
+                                        final
                                         examinations.</p>
                                     <a href="about.php"
                                         class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
@@ -96,7 +123,8 @@ require("controllers/process-form.php");
                                     <h2 class="display-3 text-white animated slideInDown">EXPERT INSTRUCTORS</h2>
                                     <p class="fs-5 text-white mb-4 pb-2">Meet our reliable and
                                         experienced instructors to take your carrier to the next level. All our
-                                        instructors are good in teaching and providing most valuable contents, join now
+                                        instructors are good in teaching and providing most valuable contents, join
+                                        now
                                         and enjoy this incredible platform.</p>
                                     <a href="about.php"
                                         class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
@@ -146,7 +174,8 @@ require("controllers/process-form.php");
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h4 class="section-title bg-white text-start text-primary pe-3">About Us</h4>
-                        <p class="mb-4">Mgote physics provide online services through providing useful notes which helps
+                        <p class="mb-4">Mgote physics provide online services through providing useful notes which
+                            helps
                             the student to acquire more knowledge moreover we provide online classes.</p>
                         <p>Mgote Physics intends to help students in Tanzania to access and get useful
                             notes, practical sessions, and online tutorials done by Mr Mgote, thus by joning
@@ -157,9 +186,12 @@ require("controllers/process-form.php");
                 <div class="row g-5 my-4 py-2 box-shadow-container">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Notes & teaching</h4>
-                        <p class="mb-4">The students have been given priority to access notes and videos which helps to
-                            increase the understanding of a student in answering different kinds of questions.We also
-                            have teaching sessions for Advanced students both form 5 and form 6, you may want to enroll
+                        <p class="mb-4">The students have been given priority to access notes and videos which help
+                            to
+                            increase the understanding of a student in answering different kinds of questions.We
+                            also
+                            have teaching sessions for Advanced students both form 5 and form 6, you may want to
+                            enroll
                             for your next studies.</p>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -172,7 +204,8 @@ require("controllers/process-form.php");
                 <div class="row g-5 my-4 py-2 box-shadow-container">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Practicals & solvings</h4>
-                        <p class="mb-4">We are providing sessions which are done practically which teaches the student
+                        <p class="mb-4">We are providing sessions which are done practically which teaches the
+                            student
                             on how to tackle the practical questions. Further, We are undergoing practicals together
                             with appropriate solvings for all advanced practicals. </p>
                     </div>
@@ -215,15 +248,19 @@ require("controllers/process-form.php");
                         </div>
                         <div class="package-features my-2">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i> All Notes</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i> All Notes
+                                </li>
                                 <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Pdf(s) &
                                     Handouts</li>
                                 <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Video</li>
                                 <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Examinations
                                 </li>
-                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Solvings</li>
-                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Practicals</li>
-                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>24/7 customer
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Solvings
+                                </li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Practicals
+                                </li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>24/7
+                                    customer
                                     support</li>
                             </ul>
                         </div>
@@ -249,14 +286,17 @@ require("controllers/process-form.php");
                         </div>
                         <div class="package-features my-2">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i> All Notes</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i> All Notes
+                                </li>
                                 <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Pdf(s) &
                                     Handouts</li>
                                 <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Video</li>
                                 <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Examinations
                                 </li>
-                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Solvings</li>
-                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Practicals</li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Solvings
+                                </li>
+                                <li class="list-group-item"><i class="fa fa-check mx-2 text-success"></i>Practicals
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -319,7 +359,6 @@ require("controllers/process-form.php");
             </div>
         </div>
         <!-- Team End -->
-
 
         <?php require("includes/footer.php") ?>
         <!-- Back to Top -->

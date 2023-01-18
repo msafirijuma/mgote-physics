@@ -61,7 +61,7 @@ require("controllers/process-form.php");
                     give you quick lessons, exercises, tips, and useful contents to expand your understanding in physics
                     subject.</p>
             </div>
-            <div class="mx-3 my-2 container-topics">
+            <div class="mx-3 my-2 container-topics reference-container">
                 <ul class="px-0">
                     <li class="list-group-item">
                         S. Chand's Principle Of Physics
