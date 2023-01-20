@@ -87,7 +87,7 @@ require("controllers/process-form.php");
                                         <i class="fa fa-phone-alt"></i> Call Us</a>
                                     <a href="mailto:saidabdallahmgote@gmail.com"
                                         class="btn btn-light py-md-3 px-md-5 animated slideInRight">
-                                        <i class="fa fa-message"></i> Message Us</a>
+                                        <i class="fa fa-envelope"></i> Message Us</a>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ require("controllers/process-form.php");
                         <h4 class="section-title bg-white text-start text-primary pe-3">Notes & teaching</h4>
                         <p class="mb-4">The students have been given priority to access notes and videos which help
                             them to
-                            increase the understanding on answering different kinds of questions.We
+                            increase the understanding on answering different kinds of questions. We
                             also
                             have teaching sessions for Advanced students both form 5 and form 6, you may want to
                             enroll
@@ -237,11 +237,11 @@ require("controllers/process-form.php");
                             <div class="my-3">
                                 <span class="small"><del>Tsh 12000</del></span>
                                 <span class="ms-3 py-3 px-4 text-light badge rounded-pill bg-info">SAVE
-                                    60%</span>
+                                    33%</span>
                             </div>
                             <div class="my-3"><span class="display-6">Tsh 8000/</span><span
                                     class="text-primary duration">mo</span></div>
-                            <div class="my-3">+2 months FREE</div>
+                            <div class="my-3">+1 month FREE</div>
                             <div class="my-3 d-flex justify-content-center w-100">
                                 <button class="btn btn-info btn-lg"><a href="register.php"
                                         class="text-light text-decoration-none">Be a member</a></button>
@@ -275,11 +275,11 @@ require("controllers/process-form.php");
                             <div class="my-3">
                                 <span class="small"><del>Tsh 6000</del></span>
                                 <span class="ms-3 py-3 px-4 text-light badge rounded-pill bg-info">SAVE
-                                    60%</span>
+                                    50%</span>
                             </div>
                             <div class="my-3"><span class="display-6">Tsh 3000/</span><span
                                     class="text-primary duration">week</span></div>
-                            <div class="my-3">+1 week FREE</div>
+                            <div class="my-3">+1 month FREE</div>
                             <div class="my-3 d-flex justify-content-center w-100">
                                 <button class="btn btn-info btn-lg"><a href="register.php"
                                         class="text-light text-decoration-none">Be a member</a></button>
@@ -332,27 +332,6 @@ require("controllers/process-form.php");
                             <div class="text-center p-4">
                                 <h5 class="mb-0">Said Mgote</h5>
                                 <small>Senior Instructor</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item bg-light">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
-                            </div>
-                            <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4">
-                                <h5 class="mb-0">Instructor Name</h5>
-                                <small>Instructor</small>
                             </div>
                         </div>
                     </div>

@@ -29,7 +29,6 @@
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                     All Right Reserved. Mgote Physics &copy; <?php echo date("Y"); ?>
-                    <!-- Designed By <a class="border-bottom" href="https://noelfaraja.netlify.app/">Namjr Tech</a> -->
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-menu">
