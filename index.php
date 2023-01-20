@@ -52,18 +52,18 @@ require("controllers/process-form.php");
                             <div class="row justify-content-start">
                                 <div class="col-sm-10 col-lg-8">
                                     <h2 class="display-3 text-white animated slideInDown">ABOUT US</h2>
-                                    <p class="fs-5 text-white mb-4 pb-2">A number one platform created
+                                    <p class="fs-5 text-white mb-2 pb-2">An incredible platform created
                                         for the purpose of helping students to acquire useful knowledge and contents
                                         shared by most
-                                        experienced instructors and teachers.</p>
-                                    <p class="fs-5 text-white mb-4 pb-2">We are teaching and providing education
-                                        materials and contents to all form 5 and form 6 students.
-                                    </p>
-                                    <a href="about.php"
-                                        class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                        More</a>
-                                    <a href="register.php"
-                                        class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                                        experienced instructors and teachers. We are teaching and providing education
+                                        materials and contents to all form 5 and form 6 students.</p>
+                                    <div class="my-3">
+                                        <a href="about.php"
+                                            class="btn btn-primary py-2 py-md-3 px-md-5 me-3  animated slideInLeft">Read
+                                            More</a>
+                                        <a href="register.php"
+                                            class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -83,9 +83,11 @@ require("controllers/process-form.php");
                                         contact or email us.
                                     </p>
                                     <a href="tel:+255784956894"
-                                        class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Call Us</a>
+                                        class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">
+                                        <i class="fa fa-phone-alt"></i> Call Us</a>
                                     <a href="mailto:saidabdallahmgote@gmail.com"
-                                        class="btn btn-light py-md-3 px-md-5 animated slideInRight">Message Us</a>
+                                        class="btn btn-light py-md-3 px-md-5 animated slideInRight">
+                                        <i class="fa fa-message"></i> Message Us</a>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +139,7 @@ require("controllers/process-form.php");
                     </div>
                 </div>
                 <div class="owl-carousel-item position-relative">
-                    <img class="img" src="img/atom-img.jpg" alt="alert">
+                    <img class="img" src="img/physics-universe.jpg" alt="alert">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                         style="background: rgba(24, 29, 56, .7);">
                         <div class="container">
@@ -174,9 +176,8 @@ require("controllers/process-form.php");
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h4 class="section-title bg-white text-start text-primary pe-3">About Us</h4>
-                        <p class="mb-4">Mgote physics provide online services through providing useful notes which
-                            helps
-                            the student to acquire more knowledge moreover we provide online classes.</p>
+                        <p class="mb-4">Mgote physics provides online services by means of providing useful notes which
+                            help students to acquire more knowledge.</p>
                         <p>Mgote Physics intends to help students in Tanzania to access and get useful
                             notes, practical sessions, and online tutorials done by Mr Mgote, thus by joning
                             as a member of our platform, you will get access to explore amazing contents
@@ -187,8 +188,8 @@ require("controllers/process-form.php");
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Notes & teaching</h4>
                         <p class="mb-4">The students have been given priority to access notes and videos which help
-                            to
-                            increase the understanding of a student in answering different kinds of questions.We
+                            them to
+                            increase the understanding on answering different kinds of questions.We
                             also
                             have teaching sessions for Advanced students both form 5 and form 6, you may want to
                             enroll
