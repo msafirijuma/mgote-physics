@@ -23,6 +23,7 @@
             <?php
             if (!empty($_SESSION["user_id"])) : ?>
             <a href="members.php" class="nav-item nav-link">Premium</a>
+            <a href="profile.php" class="nav-item nav-link">My Account</a>
             <?php endif ?>
             <span class="nav-link nav-item theme">
                 <i class="fas fa-toggle-off" title="Switch to dark mode" id="themeToggler"></i>

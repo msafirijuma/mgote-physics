@@ -1,45 +1,29 @@
 let themeToggler = document.querySelector("#themeToggler");
-let darkMode = localStorage.getItem("dark-mode")
-toggleDarkMode = () => {
-    themeToggler.classList.replace("fa-toggle-off", "fa-toggle-on");
-    localStorage.setItem("dark-mode", "enabled");
 
+let darkMode = localStorage.getItem("dark-mode")
+
+// Dark Mode
+const toggleDarkMode = () => {
+    themeToggler.classList.replace("fa-toggle-off", "fa-toggle-on");
     let headerCarousel = document.querySelector(".header-carousel");
-    let aboutSections = document.querySelectorAll(".about-section");
+    let aboutSection = document.querySelector(".about-section");
     let packageSection = document.querySelector(".package-section");
     let teamSection = document.querySelector(".team-section");
     let navbarSection = document.querySelector(".navbar");
     let backToTop = document.querySelector(".back-to-top");
 
-    // navbar section
-    if (!(navbarSection.classList.contains("navbar-dark-mode"))) {
-        navbarSection.classList.add("navbar-dark-mode");
-    } else {
-        navbarSection.classList.remove("navbar-dark-mode");
-    }
-
-
-    // back to top button
-    if (backToTop.classList.contains("back-to-top")) {
-        backToTop.classList.add("back-to-top-dark-mode");
-    } else {
-        backToTop.classList.remove("navbar-dark-mode");
-    }
-
-    // header carousel section
+    // carousel section
     if (headerCarousel.classList.contains("header-carousel")) {
-        headerCarousel.classList.add("header-carousel-dark-mode");
+        headerCarousel.classList.replace("header-carousel", "header-carousel-dark-mode");
     } else {
-        headerCarousel.classList.remove("header-carousel-dark-mode");
+        headerCarousel.classList.replace("header-carousel-dark-mode", "header-carousel");
     }
 
     // about section
-    for (let aboutSection of aboutSections) {
-        if (aboutSection.classList.contains("about-section")) {
-            aboutSection.classList.replace("about-section", "about-section-dark-mode");
-        } else {
-            aboutSection.classList.replace("about-section-dark-mode", "about-section");
-        }
+    if (aboutSection.classList.contains("about-section")) {
+        aboutSection.classList.replace("about-section", "about-section-dark-mode");
+    } else {
+        aboutSection.classList.replace("about-section-dark-mode", "about-section");
     }
 
     // package section
@@ -56,18 +40,35 @@ toggleDarkMode = () => {
         teamSection.classList.replace("team-section-dark-mode", "team-section");
     }
 
+    // navbar section
+    if (!(navbarSection.classList.contains("navbar-dark-mode"))) {
+        navbarSection.classList.add("navbar-dark-mode");
+    } else {
+        navbarSection.classList.remove("navbar-dark-mode");
+    }
 
+
+    // back to top button
+    if (backToTop.classList.contains("back-to-top")) {
+        backToTop.classList.add("back-to-top-dark-mode");
+    } else {
+        backToTop.classList.remove("navbar-dark-mode");
+    }
+
+    localStorage.setItem("dark-mode", "enabled")
 }
 
-toggleLightMode = () => {
-    themeToggler.classList.replace("fa-toggle-on", "fa-toggle-off");
 
-    let headerCarousel = document.querySelector(".header-carousel-dark-mode");
-    let aboutSection = document.querySelector(".about-section-dark-mode");
-    let packageSection = document.querySelector(".package-section-dark-mode");
-    let teamSection = document.querySelector(".team-section-dark-mode");
-    let navbarSection = document.querySelector(".navbar-dark-mode");
+// Light Mode
+const toggleLightMode = () => {
+    themeToggler.classList.replace("fa-toggle-on", "fa-toggle-off");
     let backToTop = document.querySelector(".back-to-top");
+    let navbarSection = document.querySelector(".navbar-dark-mode");
+    let carouselSection = document.querySelector(".carousel-section-dark-mode")
+    let aboutSection = document.querySelector(".about-section-dark-mode")
+    let packageSection = document.querySelector(".package-section-dark-mode")
+    let teamSection = document.querySelector(".team-section-dark-mode")
+
 
     // navbar section
     if ((navbarSection.classList.contains("navbar-dark-mode"))) {
@@ -83,11 +84,11 @@ toggleLightMode = () => {
         backToTop.classList.add("back-to-top-dark-mode")
     }
 
-    // header carousel section
-    if (headerCarousel.classList.contains("header-carousel-dark-mode")) {
-        headerCarousel.classList.remove("header-carousel-dark-mode")
+    // carousel section
+    if (carouselSection.classList.contains("carousel-section-dark-mode")) {
+        carouselSection.classList.replace("carousel-section-dark-mode", "carousel-section")
     } else {
-        headerCarousel.classList.add("header-carousel-dark-mode")
+        carouselSection.classList.replace("carousel-section", "carousel-section-dark-mode")
     }
 
     // about section
@@ -111,16 +112,17 @@ toggleLightMode = () => {
         teamSection.classList.replace("team-section", "team-section-dark-mode")
     }
 
-    localStorage.setItem("dark-mode", "disabled");
+
+    localStorage.setItem("dark-mode", "disabled")
 }
 
 if (darkMode == "enabled") {
-    toggleDarkMode();
+    toggleDarkMode(); // toggle dark mode default when page loads
 }
 
-// dark and light toggler
+//dark and light mode toggler
 themeToggler.addEventListener("click", () => {
-    window.location.reload();
+    // window.location.reload();
     darkMode = localStorage.getItem("dark-mode");
 
     if (darkMode === "disabled") {
