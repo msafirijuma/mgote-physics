@@ -112,7 +112,6 @@ const toggleLightMode = () => {
         teamSection.classList.replace("team-section", "team-section-dark-mode")
     }
 
-
     localStorage.setItem("dark-mode", "disabled")
 }
 

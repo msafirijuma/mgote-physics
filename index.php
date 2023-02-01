@@ -315,7 +315,7 @@ require("controllers/process-form.php");
                     <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
                     <h1 class="mb-5">Expert Instructors</h1>
                 </div>
-                <div class="row g-4">
+                <div class="row g-4 d-flex justify-content-center align-items-center">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item bg-light">
                             <div class="overflow-hidden">

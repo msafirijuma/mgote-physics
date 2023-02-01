@@ -160,7 +160,7 @@ if (empty($_SESSION["user_id"])) {
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                                <h5 class="mb-3 text-uppercase"><a href="documents/form5/HEAT OG.pdf">heat</a></h5>
+                                <h5 class="mb-3 text-uppercase"><a href="heat-notes.php">heat</a></h5>
                             </div>
                         </div>
                     </div>
