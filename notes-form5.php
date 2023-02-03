@@ -88,7 +88,8 @@ if (empty($_SESSION["user_id"])) {
                             <div class="p-4">
                                 <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
                                 <h5 class="mb-3 text-uppercase"><a
-                                        href="documents/form5/NEWTON'S LAW OF MOTION.pdf">newton's laws of motion</a>
+                                        href="documents/form5/Module 2 - NEWTON'S LAWS OF MOTION.pdf">newton's laws of
+                                        motion</a>
                                 </h5>
                             </div>
                         </div>
