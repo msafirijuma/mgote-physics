@@ -11,6 +11,9 @@
             <a href="index.php" class="nav-item nav-link active">Home</a>
             <a href="about.php" class="nav-item nav-link">About</a>
             <a href="contact.php" class="nav-item nav-link">Contact</a>
+            <?php
+            if (empty($_SESSION["user_id"])) {
+            ?>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
                 <div class="dropdown-menu fade-down m-0">
@@ -19,6 +22,7 @@
                     <a href="videos.php" class="dropdown-item">VIDEOS</a>
                 </div>
             </div>
+            <?php } ?>
             <!-- only logged in and user paid package can see it -->
             <?php
             if (!empty($_SESSION["user_id"])) : ?>
@@ -30,15 +34,15 @@
             </span>
             <!-- switching btn logout and join now -->
             <?php
-        if (empty($_SESSION["user_id"])) : ?>
+            if (empty($_SESSION["user_id"])) : ?>
 
             <?php endif ?>
             <?php if (empty($_SESSION["user_id"])) {
-        ?>
+            ?>
             <a href="register.php" class="btn btn-primary py-4 px-lg-5 d-lg-block join-btn">Join Now<i
                     class="fa fa-arrow-right ms-3"></i></a>
             <?php } else {
-        ?>
+            ?>
             <a href="register.php?logout='1'" class="btn btn-primary py-4 px-lg-5 d-lg-block join-btn">Logout<i
                     class="fa fa-arrow-right ms-3"></i></a>
             <?php } ?>
