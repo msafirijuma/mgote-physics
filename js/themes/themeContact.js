@@ -2,14 +2,13 @@ let themeToggler = document.querySelector("#themeToggler");
 let darkMode = localStorage.getItem("dark-mode")
 toggleDarkMode = () => {
     themeToggler.classList.replace("fa-toggle-off", "fa-toggle-on");
-    localStorage.setItem("dark-mode", "enabled");
 
     let contactSection = document.querySelector(".contact-section");
     let navbarSection = document.querySelector(".navbar");
     let backToTop = document.querySelector(".back-to-top");
 
     // navbar section
-    if (!(navbarSection.classList.contains("navbar-dark-mode"))) {
+    if (navbarSection.classList.contains("navbar")) {
         navbarSection.classList.add("navbar-dark-mode");
     } else {
         navbarSection.classList.remove("navbar-dark-mode");
@@ -30,6 +29,7 @@ toggleDarkMode = () => {
         contactSection.classList.replace("contact-section-dark-mode", "contact-section");
     }
 
+    localStorage.setItem("dark-mode", "enabled");
 }
 
 toggleLightMode = () => {
@@ -59,7 +59,6 @@ toggleLightMode = () => {
     } else {
         contactSection.classList.replace("contact-section", "contact-section-dark-mode")
     }
-
 
     localStorage.setItem("dark-mode", "disabled");
 }

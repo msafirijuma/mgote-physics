@@ -384,7 +384,7 @@
 
 .header-carousel-dark-mode .slideInLeft {
   background-color: black !important;
-  color: #ffffff;
+  color: #ffffff !important;
   border: unset;
 }
 
